@@ -1,25 +1,29 @@
-from dataclasses import  dataclass
-from typing import TypedDict
+from dataclasses import dataclass
 from enum import Enum
+from typing import TypedDict
+
 
 class ActionStatus(str, Enum):
     PENDING = "pending"
     APPROVED = "approved"
     REJECTED = "rejected"
 
-class AgeentState(TypedDict):
+
+class AgentState(TypedDict):
     query: str
     answer: str
     documents: list[str]
 
+
 @dataclass
-class Document():
+class Document:
     document_id: str
     content: str
     source: str
 
+
 @dataclass
-class searchResult():
+class SearchResult:
     document_id: str
     content: str
     score: float
