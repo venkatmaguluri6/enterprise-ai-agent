@@ -21,7 +21,7 @@ Python → AsyncIO → FastAPI → RAG → Hybrid Search → LangGraph → MCP �
 - pathlib
 - Document generator
 
-### Day 2 — Async Python & Concurrency 🚧
+### Day 2 — Async Python & Concurrency ✅
 
 - async / await
 - Coroutines
@@ -75,7 +75,7 @@ enterprise-ai-agent/
 
 - [x] Day 1 — Python foundations
 - [x] Day 2 — Async Python and concurrency
-- [ ] Day 3 — FastAPI
+- [x] Day 3 — FastAPI
 - [ ] Day 4 — Pydantic and API design
 - [ ] Day 5 — LLM fundamentals
 - [ ] RAG pipeline
