@@ -77,3 +77,31 @@ def search_document(request: SearchRequest):
 # This is the pattern we'll eventually use for our GenAI APIs.
 
 # Async FastAPI endpoint
+@app.get("/health")
+async def health():
+    return {
+        "status": "healthy"
+    }
+
+@app.get("/async-search")
+async def async_search():
+    results = await some_async_operation()
+    return results
+
+# Now eventually our endpoint can call it:
+'''        POST /search
+            ↓
+        FastAPI
+            ↓
+        SearchRequest
+            ↓
+        concurrent_search()
+            ↓
+        Vector Search
+        BM25 Search
+        Metadata
+            ↓
+        Response
+
+'''
+
