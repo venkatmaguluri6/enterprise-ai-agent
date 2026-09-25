@@ -76,7 +76,7 @@ enterprise-ai-agent/
 - [x] Day 1 — Python foundations
 - [x] Day 2 — Async Python and concurrency
 - [x] Day 3 — FastAPI
-- [ ] Day 4 — Pydantic and API design
+- [x] Day 4 — FastAPI production patterns + LLM integration
 - [ ] Day 5 — LLM fundamentals
 - [ ] RAG pipeline
 - [ ] Embeddings
