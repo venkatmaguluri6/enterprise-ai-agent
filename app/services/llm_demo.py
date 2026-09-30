@@ -11,7 +11,6 @@ TOY_VOCAB: dict[str, int] = {
     "what": 1,
     "is": 2,
     "rag": 3,
-    "rag": 3,
     "retrieval": 4,
     "augmented": 5,
     "generation": 6,
