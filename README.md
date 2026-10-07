@@ -40,6 +40,17 @@ Python → AsyncIO → FastAPI → LLM fundamentals → RAG → Hybrid Search �
 - Hallucination, RAG grounding, token budget and cost
 - Educational mock tokenization/generation pipeline (not a real LLM)
 
+### Day 6 — Embeddings, Vector Search & RAG Foundations 🔎
+- Embeddings and semantic search
+- Token vs document embeddings
+- Cosine similarity
+- Vector database concepts
+- Chunking and Top-K retrieval
+- RAG indexing and query pipelines
+- RAG vs fine-tuning
+- Retrieval debugging and grounding
+- Educational vector-search implementation (not a real neural embedding model)
+
 ## Run the application
 
 ```bash
@@ -65,7 +76,12 @@ Day 5:
 python -c "from app.services.llm_demo import tokenize, token_to_id, generate_response; print(tokenize('What is RAG?')); print(token_to_id(tokenize('What is RAG?'))); print(generate_response('What is RAG?', 5))"
 ```
 
-The Day 5 pipeline is deliberately rule-based for learning. It is not a trained language model and does not perform real Transformer inference.
+Day 6:
+```bash
+python -m app.services.embedding_demo
+```
+
+The Day 5 and Day 6 demos are deliberately educational and rule-based. They are not trained LLM or production embedding-model implementations.
 
 ## Run tests
 
@@ -82,6 +98,7 @@ enterprise-ai-agent/
 │   ├── core/
 │   ├── models/
 │   ├── services/
+│   │   ├── embedding_demo.py
 │   │   └── llm_demo.py
 │   ├── async_demo.py
 │   └── main.py
@@ -91,7 +108,8 @@ enterprise-ai-agent/
 │   ├── day-02-async-concurrency/
 │   ├── day-03-fastapi/
 │   ├── day-04-fastapi-production/
-│   └── day-05-llm-fundamentals/
+│   ├── day-05-llm-fundamentals/
+│   └── day-06-embeddings-rag/
 ├── data/
 ├── requirements.txt
 └── README.md
@@ -109,7 +127,7 @@ Every study day contains:
 - [x] Day 3 — FastAPI foundations
 - [x] Day 4 — FastAPI production patterns
 - [x] Day 5 — LLM fundamentals
-- [ ] Day 6 — Embeddings, vector databases and RAG
+- [x] Day 6 — Embeddings, vector search and RAG
 - [ ] Hybrid search and reranking
 - [ ] LangGraph agents and human-in-the-loop
 - [ ] MCP server/client and tool security
