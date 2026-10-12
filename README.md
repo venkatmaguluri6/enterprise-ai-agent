@@ -51,6 +51,16 @@ Python → AsyncIO → FastAPI → LLM fundamentals → RAG → Hybrid Search �
 - Retrieval debugging and grounding
 - Educational vector-search implementation (not a real neural embedding model)
 
+## Interview Revision Pack — Days 1–7
+
+Use these consolidated files for quick revision and mock interview preparation:
+
+- [80/20 Quick Revision Pack](interview-prep/revision-pack-day-01-to-07/quick-revision-day-01-to-07.md) — compact concepts, memory tricks, and pipeline summaries.
+- [Interview Questions and Short Answers](interview-prep/revision-pack-day-01-to-07/interview-questions-day-01-to-07.md) — common questions plus interview-ready answers and Day 7 mock interview responses.
+- [Coding Patterns](interview-prep/revision-pack-day-01-to-07/coding-patterns.md) — Top-K, one-pass top two, filtering, async patterns, Pydantic validation, and complexity reminders.
+
+Suggested routine: spend 10 minutes on quick revision, 10 minutes answering questions aloud, and 10 minutes coding without looking at the solution. Day 7 refers to the mock interview and consolidation session; the next new curriculum topic remains hybrid search and reranking.
+
 ## Run the application
 
 ```bash
@@ -109,7 +119,11 @@ enterprise-ai-agent/
 │   ├── day-03-fastapi/
 │   ├── day-04-fastapi-production/
 │   ├── day-05-llm-fundamentals/
-│   └── day-06-embeddings-rag/
+│   ├── day-06-embeddings-rag/
+│   └── revision-pack-day-01-to-07/
+│       ├── quick-revision-day-01-to-07.md
+│       ├── interview-questions-day-01-to-07.md
+│       └── coding-patterns.md
 ├── data/
 ├── requirements.txt
 └── README.md
