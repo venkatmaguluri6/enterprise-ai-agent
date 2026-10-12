@@ -55,9 +55,9 @@ Python → AsyncIO → FastAPI → LLM fundamentals → RAG → Hybrid Search �
 
 Use these consolidated files for quick revision and mock interview preparation:
 
-- [80/20 Quick Revision Pack](interview-prep/revision-pack/quick-revision-day-01-to-07.md) — compact concepts, memory tricks, and pipeline summaries.
-- [Interview Questions and Short Answers](interview-prep/revision-pack/interview-questions-day-01-to-07.md) — common questions plus interview-ready answers and Day 7 mock interview responses.
-- [Coding Patterns](interview-prep/revision-pack/coding-patterns.md) — Top-K, one-pass top two, filtering, async patterns, Pydantic validation, and complexity reminders.
+- [80/20 Quick Revision Pack](interview-prep/revision-pack-day-01-to-07/quick-revision-day-01-to-07.md) — compact concepts, memory tricks, and pipeline summaries.
+- [Interview Questions and Short Answers](interview-prep/revision-pack-day-01-to-07/interview-questions-day-01-to-07.md) — common questions plus interview-ready answers and Day 7 mock interview responses.
+- [Coding Patterns](interview-prep/revision-pack-day-01-to-07/coding-patterns.md) — Top-K, one-pass top two, filtering, async patterns, Pydantic validation, and complexity reminders.
 
 Suggested routine: spend 10 minutes on quick revision, 10 minutes answering questions aloud, and 10 minutes coding without looking at the solution. Day 7 refers to the mock interview and consolidation session; the next new curriculum topic remains hybrid search and reranking.
 
@@ -120,7 +120,7 @@ enterprise-ai-agent/
 │   ├── day-04-fastapi-production/
 │   ├── day-05-llm-fundamentals/
 │   ├── day-06-embeddings-rag/
-│   └── revision-pack/
+│   └── revision-pack-day-01-to-07/
 │       ├── quick-revision-day-01-to-07.md
 │       ├── interview-questions-day-01-to-07.md
 │       └── coding-patterns.md
