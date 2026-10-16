@@ -51,6 +51,13 @@ Python → AsyncIO → FastAPI → LLM fundamentals → RAG → Hybrid Search �
 - Retrieval debugging and grounding
 - Educational vector-search implementation (not a real neural embedding model)
 
+### Day 9 — Amazon API Gateway 🚪
+- API Gateway request flow and backend integrations
+- HTTP API vs REST API vs WebSocket API
+- Authorization, throttling, stages, CORS, and monitoring
+- API Gateway + FastAPI + Bedrock GenAI architecture
+- Troubleshooting 401/403, 429, 5xx, and high latency
+
 ## Interview Revision Pack — Days 1–7
 
 Use these consolidated files for quick revision and mock interview preparation:
@@ -147,4 +154,4 @@ Every study day contains:
 - [ ] MCP server/client and tool security
 - [ ] Guardrails and hallucination defense
 - [ ] Observability and cost optimization
-- [ ] Docker and AWS deployment
+- [ ] Day 9 — Amazon API Gateway\n- [ ] Day 10 — AWS Step Functions\n- [ ] Day 11 — Event-driven architecture\n- [ ] Day 12 — DynamoDB fundamentals\n- [ ] Day 13 — S3 and AWS security\n- [ ] Day 14 — AWS mock interview\n- [ ] Docker and AWS deployment
